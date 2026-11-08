@@ -1,21 +1,44 @@
-# Routes
+# Worder Effects Studio
 
-TanStack Start uses **file-based routing**. Every `.tsx` file in this directory
-defines a route. Do **not** create `src/pages/`, `src/routes/_app/index.tsx`, or
-`app/layout.tsx` — those are Next.js / Remix conventions. The only root layout
-is `src/routes/__root.tsx`.
+Crie um app que seja o melhor app de edição feito por ia do mundo com todos os efeitos do After effects implementados e do nodevideo também e do alight motion também todos juntos quero ele nesse estilo:
 
-## Conventions
+Nome do app: Worder Effect
 
-| File | URL |
-| --- | --- |
-| `index.tsx` | `/` |
-| `about.tsx` | `/about` |
-| `users/index.tsx` | `/users` |
-| `users/$id.tsx` | `/users/:id` (dynamic — bare `$`, no curly braces) |
-| `posts/{-$category}.tsx` | `/posts/:category?` (optional segment) |
-| `files/$.tsx` | `/files/*` (splat — read via `_splat` param, never `*`) |
-| `_layout.tsx` | layout route (renders children via `<Outlet />`) |
-| `__root.tsx` | app shell — wraps every page; preserve `<Outlet />` |
+Layout:Alight motion,After effects(quando a tela está deitada)
 
-`routeTree.gen.ts` is auto-generated. Don't edit it by hand.
+Extensoes:muitas extensões para ajudar a editar a podendo importar extensões de qualquer formato
+
+Plugins:Não vem Com nenhum mais também dá de importar quantos quiser e no formato qualquer 
+
+Efeitos:500+
+
+Cor foco da interface: verde e roxo 
+
+Efeitos de tempo(Adicional):Time remap, Twixtor(com Motion Blur que ia gera)
+
+Topaz ia :Enhancer com ia e Upscaler 4x com ia potente 
+
+Especialidade: importar ffx de After effects 
+
+Gere ele com muita paciência para não errar e fazer certinho gere e pense bem!
+
+This project was built with [Lovable](https://lovable.dev).
+
+## Build with Lovable
+
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6a3c0e8d-01ee-5490-bfab-428c5e1c1f2c).
+
+- **Ship faster**: describe what you want to build and Lovable handles the code.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+
+## Development
+
+Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```sh
+git clone <this-repository-url>
+cd <repository-name>
+npm i
+npm run dev
+```
